@@ -1,4 +1,4 @@
-# Hands-on-4-Crear-Analizador-L-xico
+# Hands-on-4-Crear-un-Analizador-Lexico
 
 # Analizador Léxico para un Subconjunto del Lenguaje C
 
