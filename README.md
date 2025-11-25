@@ -3,11 +3,11 @@
 # Analizador Léxico para un Subconjunto del Lenguaje C
 
 ## Integrante del Equipo
-**Miguel Angel Pérez González**
+** 👤 Miguel Angel Pérez González**
 
 ---
 
-## Breve Descripción de las Capacidades del Analizador Léxico
+## 💡 Breve Descripción de las Capacidades del Analizador Léxico
 
 Este analizador léxico fue desarrollado utilizando la herramienta **Flex** para identificar y clasificar los tokens fundamentales de un subconjunto del lenguaje C a partir de un flujo de caracteres de entrada (lexemas). Su función es procesar el código fuente (`input.c`) y descomponerlo en una secuencia de unidades léxicas válidas.
 
@@ -33,10 +33,12 @@ Asegúrate de que **Flex** (GnuWin32) y **GCC** (MinGW) estén instalados. Todos
 
 Utiliza Flex para leer las reglas definidas en `lexer.l` y generar el motor del analizador léxico en el archivo **`lex.yy.c`**.
 
+2. Compilar el Analizador
 Ingresamos los siguientes comandos
 flex lexer.l
 `Se creara el archivo lex.yy.c`
 gcc lex.yy.c -o lexer
 `Despues se creara el lexer.exe`
+3. Ejecutar el Análisis
 .\lexer.exe input.c
 `Aquí se ejecutara el archivo .exe y tendremos la salida de los datos`
